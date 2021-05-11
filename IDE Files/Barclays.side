@@ -1,0 +1,337 @@
+{
+  "id": "237f54ea-46c0-4d53-9401-cb6a5f060a1d",
+  "version": "2.0",
+  "name": "Barclays",
+  "url": "https://www.barclays.co.uk",
+  "tests": [{
+    "id": "27b2aeff-fde0-4416-b06d-e1924417f606",
+    "name": "Barclays",
+    "commands": [{
+      "id": "f5ba6112-0f43-4740-958f-c1fe9914f7e4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b170ac3-63d0-4168-a916-d9b53cdb8ad0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1122x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "877a622c-5b49-473e-8ea5-90c7a32f8192",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Mortgage",
+      "targets": [
+        ["linkText=Mortgage", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mortgage')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[28]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mortgage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1102e61-83be-4633-9d59-b93f550b7934",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mortgage",
+      "targets": [
+        ["linkText=Mortgage", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mortgage')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[28]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mortgage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "073a851b-880c-4cf3-87e4-3399808dbbca",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Mortgage",
+      "targets": [
+        ["linkText=Mortgage", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mortgage')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[28]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mortgage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "697fb598-a07a-41ce-9414-25fbc22d8d00",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All mortgage types",
+      "targets": [
+        ["linkText=All mortgage types", "linkText"],
+        ["css=.selected li:nth-child(2) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'All mortgage types')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/mortgages/options/')]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'All mortgage types')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0232c60-f5ca-48a5-8b2e-5c1d3b4bd6cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Credit cards",
+      "targets": [
+        ["linkText=Credit cards", "linkText"],
+        ["css=.visible > ul > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Credit cards')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[18]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41e32e1e-0c2f-4bee-9433-4e30165edbd1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Credit cards",
+      "targets": [
+        ["linkText=Credit cards", "linkText"],
+        ["css=.visible > ul > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Credit cards')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[18]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d0a7be4-1d6c-46fc-846f-758009ccd977",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Credit cards",
+      "targets": [
+        ["linkText=Credit cards", "linkText"],
+        ["css=.visible > ul > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Credit cards')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[18]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d372275e-097d-4946-b301-65ab2e1d794d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Compare our cards",
+      "targets": [
+        ["linkText=Compare our cards", "linkText"],
+        ["css=.selected li:nth-child(1) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Compare our cards')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/credit-cards/')])[8]", "xpath:href"],
+        ["xpath=//li[3]/div/ul/li/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Compare our cards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf63b73a-311d-4bd6-95c8-17f437e856cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.promo:nth-child(1) > .promo-content:nth-child(1) .m-button__text",
+      "targets": [
+        ["css=.promo:nth-child(1) > .promo-content:nth-child(1) .m-button__text", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/section[3]/div/div/div/div/article/div/div[2]/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div/div/div/article/div/div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Balance transfer cards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dff23e4-7250-4ebb-8a45-841152c276cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=See card details",
+      "targets": [
+        ["linkText=See card details", "linkText"],
+        ["css=.row:nth-child(1) > .col-xs-12 > div > .row .m-button", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[3]/section/div/div/div/div/div/div/div/div[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/credit-cards/balance-transfer-credit-cards/barclays-platinum-no-fee-bt/?')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'See card details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f718e7a3-ba07-4612-90f1-7b1815557001",
+      "comment": "",
+      "command": "click",
+      "target": "css=.o-accordion__item:nth-child(1) .m-accordion-item__head-button",
+      "targets": [
+        ["css=.o-accordion__item:nth-child(1) .m-accordion-item__head-button", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/section[3]/div/div/div/div[2]/ul/li/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Balance transfer calculator')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3265b7a7-b6f7-4e87-be29-cef95bd7f3c0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Bank",
+      "targets": [
+        ["linkText=Bank", "linkText"],
+        ["css=.visible > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bank')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8147442-f30e-4ba1-b654-3a1c97ef4543",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=account",
+      "targets": [
+        ["linkText=Bank", "linkText"],
+        ["css=.visible > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bank')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05deb18e-3d69-4d6d-9179-bb83069dbfd3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Bank",
+      "targets": [
+        ["linkText=Bank", "linkText"],
+        ["css=.visible > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bank')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b90e8441-e028-4007-bbc0-9807b3231ba9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Current accounts",
+      "targets": [
+        ["linkText=Current accounts", "linkText"],
+        ["css=.selected li:nth-child(1) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Current accounts')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/current-accounts/')]", "xpath:href"],
+        ["xpath=//div/ul/li/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Current accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96d4ae7e-4580-4b6a-a17d-3905c4a09c15",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Student Additions Account",
+      "targets": [
+        ["linkText=Student Additions Account", "linkText"],
+        ["css=.aem-column__item:nth-child(2) .o-buttons:nth-child(2) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Student Additions Account')]", "xpath:link"],
+        ["xpath=//main[@id='main-content']/div[2]/section/div/div/div/div/div/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/current-accounts/student-account/?')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Student Additions Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dcc2bf7-6715-429a-8c8c-1ec2cda2721f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Student Additions Account",
+      "targets": [
+        ["linkText=Student Additions Account", "linkText"],
+        ["css=.aem-column__item:nth-child(2) .o-buttons:nth-child(2) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Student Additions Account')]", "xpath:link"],
+        ["xpath=//main[@id='main-content']/div[2]/section/div/div/div/div/div/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/current-accounts/student-account/?')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Student Additions Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cee08b0-7e4b-462b-a06d-00063f13ca1d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f04e7ff4-b338-44d7-ac52-70b3b94390f0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Credit cards",
+      "targets": [
+        ["linkText=Credit cards", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Credit cards')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[18]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79cce790-57d9-4502-9055-27b70d92816f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Credit cards",
+      "targets": [
+        ["linkText=Credit cards", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Credit cards')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[18]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ead18c87-747d-4fb5-ab61-95c82e5f9beb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Current accounts",
+      "targets": [
+        ["linkText=Current accounts", "linkText"],
+        ["css=.selected li:nth-child(1) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Current accounts')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/current-accounts/')]", "xpath:href"],
+        ["xpath=//div/ul/li/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Current accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "960fc334-d1b5-43c6-91d1-1aaa3469fe0f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Higher Education Account",
+      "targets": [
+        ["linkText=Higher Education Account", "linkText"],
+        ["css=.aem-column__item:nth-child(2) .o-buttons:nth-child(3) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Higher Education Account')]", "xpath:link"],
+        ["xpath=//main[@id='main-content']/div[2]/section/div/div/div/div/div/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/current-accounts/higher-education-account/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Higher Education Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cea7505f-e9d5-460c-ba5e-fcb8ce0c7dad",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5a70f375-8965-404e-b082-fb392a104c46",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["27b2aeff-fde0-4416-b06d-e1924417f606"]
+  }],
+  "urls": ["https://www.barclays.co.uk/"],
+  "plugins": []
+}

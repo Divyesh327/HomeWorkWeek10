@@ -1,0 +1,211 @@
+{
+  "id": "fcf51794-4878-460d-8294-7f0a85513dc1",
+  "version": "2.0",
+  "name": "Xcart",
+  "url": "https://www.x-cart.com",
+  "tests": [{
+    "id": "f7fb987b-0b50-434a-82dc-782a98667f26",
+    "name": "XCart",
+    "commands": [{
+      "id": "35b1f5a1-ae45-4a6c-893a-162b0694b9f5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8686ea08-ea13-46a0-8ab3-45401ee7ef94",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1122x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70080f97-29f0-4d3b-9539-99f45e9bcef7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Enterprise Services",
+      "targets": [
+        ["linkText=Enterprise Services", "linkText"],
+        ["css=.top-menu__link:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Enterprise Services')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.x-cart.com/enterprise-ecommerce-solution.html')])[10]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a74f95e-abf5-45e1-8f2a-83713a2fbb13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-menu__m-services .top-menu__sublink:nth-child(1) span",
+      "targets": [
+        ["css=.top-menu__m-services .top-menu__sublink:nth-child(1) span", "css:finder"],
+        ["xpath=//li[3]/ul/li/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Custom Development')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "620be3ff-1023-44c0-8296-44588c0e2166",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-menu__m-solutions .top-menu__sublink:nth-child(1) span",
+      "targets": [
+        ["css=.top-menu__m-solutions .top-menu__sublink:nth-child(1) span", "css:finder"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'X-Cart Enterprise')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9f3a314-4aaa-42cd-a39c-e89a5bb604c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Meet Our Customers",
+      "targets": [
+        ["linkText=Meet Our Customers", "linkText"],
+        ["css=.featured:nth-child(2) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Meet Our Customers')]", "xpath:link"],
+        ["xpath=//main[@id='main']/article/section/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.x-cart.com/success-stories')])[2]", "xpath:href"],
+        ["xpath=//section/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Meet Our Customers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "631ee990-f79f-4a37-9540-bd8ee94555b2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.p-story:nth-child(1) > .p-story__teaser",
+      "targets": [
+        ["css=.p-story:nth-child(1) > .p-story__teaser", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.x-cart.com/success-stories/books-for-keeps.html')]", "xpath:href"],
+        ["xpath=//section/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a8425bf-866e-4480-9258-ba3e3a73c221",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.p-story:nth-child(1) > .p-story__teaser",
+      "targets": [
+        ["css=.p-story:nth-child(1) > .p-story__teaser", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.x-cart.com/success-stories/books-for-keeps.html')]", "xpath:href"],
+        ["xpath=//section/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd406697-a9fb-4a00-8335-4e63b4ca128d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=House of Mysterious Secrets",
+      "targets": [
+        ["linkText=House of Mysterious Secrets", "linkText"],
+        ["css=.p-story:nth-child(3) > .h3", "css:finder"],
+        ["xpath=//a[contains(text(),'House of Mysterious Secrets')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.x-cart.com/success-stories/house-of-mysterious-secrets.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'House of Mysterious Secrets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a3a8797-b8ed-456c-920a-eb3169b0dc39",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d580de8-64ae-4742-ac4a-50c22f123b2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-menu__m-resources .top-menu__sublink:nth-child(2) span",
+      "targets": [
+        ["css=.top-menu__m-resources .top-menu__sublink:nth-child(2) span", "css:finder"],
+        ["xpath=//li[5]/ul/li/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3619021-327f-432a-9686-1ba99994d850",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ca8c4b4-bf09-47ee-b808-9e67e7b407b1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea528146-ba12-4900-8bf4-b8c979463344",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View Knowledge Base",
+      "targets": [
+        ["linkText=View Knowledge Base", "linkText"],
+        ["css=p:nth-child(9) > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'View Knowledge Base')]", "xpath:link"],
+        ["xpath=//main[@id='main']/section/div/div/p[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kb.x-cart.com')]", "xpath:href"],
+        ["xpath=//p[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View Knowledge Base')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ca8a8c8-7cfc-4640-8b93-9c3e2fe4e237",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get started",
+      "targets": [
+        ["linkText=Get started", "linkText"],
+        ["css=.ui:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Get started')]", "xpath:link"],
+        ["xpath=//header[@id='banner']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/general_setup/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5938f10-5475-4e3b-8a34-aee5d0d02b79",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=X-Cart Store Admin Area",
+      "targets": [
+        ["linkText=X-Cart Store Admin Area", "linkText"],
+        ["css=#navigation-menu > .anchor-link:nth-child(3) > .title > .link", "css:finder"],
+        ["xpath=//a[contains(text(),'X-Cart Store Admin Area')]", "xpath:link"],
+        ["xpath=//div[@id='navigation-menu']/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/general_setup/admin/')]", "xpath:href"],
+        ["xpath=//aside/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'X-Cart Store Admin Area')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84470baa-f5d5-498e-9ddf-e27c2b05de18",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Admin Area Overview",
+      "targets": [
+        ["linkText=Admin Area Overview", "linkText"],
+        ["css=ul:nth-child(3) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Admin Area Overview')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/general_setup/admin/overview.html')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6169681a-8195-4cb5-abdf-4e5bab4b7398",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f7fb987b-0b50-434a-82dc-782a98667f26"]
+  }],
+  "urls": ["https://www.x-cart.com/"],
+  "plugins": []
+}

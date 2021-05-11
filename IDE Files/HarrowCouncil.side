@@ -1,0 +1,397 @@
+{
+  "id": "173c6ace-7aee-4fa2-9c76-4b3d8bd0b115",
+  "version": "2.0",
+  "name": "HarrowCouncil",
+  "url": "https://www.harrow.gov.uk",
+  "tests": [{
+    "id": "a8c8f692-1820-4b3e-9891-0d947b5c72cd",
+    "name": "HarrowCouncil",
+    "commands": [{
+      "id": "599f9523-2cc6-45a2-b3d9-eb941570699c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "505d1a1d-cc21-46bc-9aa5-84e62755872d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1122x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30463a71-33fe-48a0-b4d8-014997b07247",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-fallback:nth-child(2)",
+      "targets": [
+        ["css=.icon-fallback:nth-child(2)", "css:finder"],
+        ["xpath=//header[@id='top']/div/nav/div/ul/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in / Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d32e561-9896-4a30-bb2d-684585485f67",
+      "comment": "",
+      "command": "click",
+      "target": "name=_register",
+      "targets": [
+        ["name=_register", "name"],
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//input[@name='_register']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2f0bdad-6296-4be0-8302-aff23faebe4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//select[@id='title']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "787c870e-4969-4b14-b0ec-894e13367ab8",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//select[@id='title']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81a9b517-8d9e-4666-8381-d92e4ad88264",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//select[@id='title']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36f85493-4b07-474d-a7bc-d9fdd421e72a",
+      "comment": "",
+      "command": "select",
+      "target": "id=title",
+      "targets": [],
+      "value": "label=Mr"
+    }, {
+      "id": "6f3b6c24-6e17-42b2-b5e3-652a94dc046d",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//select[@id='title']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1624c8b3-3179-4a6a-9167-74c5f5fbb704",
+      "comment": "",
+      "command": "click",
+      "target": "id=forename",
+      "targets": [
+        ["id=forename", "id"],
+        ["name=forename", "name"],
+        ["css=#forename", "css:finder"],
+        ["xpath=//input[@id='forename']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77610769-6365-4bfd-82c3-80da28d847ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=forename",
+      "targets": [
+        ["id=forename", "id"],
+        ["name=forename", "name"],
+        ["css=#forename", "css:finder"],
+        ["xpath=//input[@id='forename']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "D"
+    }, {
+      "id": "0cc8f8e6-a5be-4108-b6b7-76010ffc4cd4",
+      "comment": "",
+      "command": "type",
+      "target": "id=surname",
+      "targets": [
+        ["id=surname", "id"],
+        ["name=surname", "name"],
+        ["css=#surname", "css:finder"],
+        ["xpath=//input[@id='surname']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Soni"
+    }, {
+      "id": "3fc5ddb2-15b8-44a4-b620-511d0a3b1480",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.postcode",
+      "targets": [
+        ["id=address.postcode", "id"],
+        ["name=address.postcode", "name"],
+        ["css=#address\\.postcode", "css:finder"],
+        ["xpath=//input[@id='address.postcode']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "UB13DY"
+    }, {
+      "id": "cb3e811f-4fd7-4759-b6d1-ecce630e20a3",
+      "comment": "",
+      "command": "type",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "07453113826"
+    }, {
+      "id": "6a298dec-2d49-4cdd-9861-dabcd3c3475d",
+      "comment": "",
+      "command": "type",
+      "target": "id=emailId",
+      "targets": [
+        ["id=emailId", "id"],
+        ["name=emailId", "name"],
+        ["css=#emailId", "css:finder"],
+        ["xpath=//input[@id='emailId']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "divyesh_aero@rediffmail.com"
+    }, {
+      "id": "d466dbb4-35a7-40e0-92c3-c67c148f9d92",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmEmail",
+      "targets": [
+        ["id=confirmEmailId", "id"],
+        ["name=confirmEmailId", "name"],
+        ["css=#confirmEmailId", "css:finder"],
+        ["xpath=//input[@id='confirmEmailId']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "divyesh_aero@rediffmail.com"
+    }, {
+      "id": "7c9735c8-f89a-466a-acda-923fbe92f88b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cap-wrapper",
+      "targets": [
+        ["css=.cap-wrapper", "css:finder"],
+        ["xpath=//body/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc482c18-da45-4364-9172-02f4f57bf676",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.postcode",
+      "targets": [
+        ["id=address.postcode", "id"],
+        ["name=address.postcode", "name"],
+        ["css=#address\\.postcode", "css:finder"],
+        ["xpath=//input[@id='address.postcode']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b452f99e-2df4-413c-b5e2-ff73d46ccf24",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "034e0e9c-6e18-4a4d-9a85-33f6c4d2b6f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "AED"
+    }, {
+      "id": "2948f9ab-9c81-49d6-8fb9-6c84e5fb514a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(15) > label",
+      "targets": [
+        ["css=.form-group:nth-child(15) > label", "css:finder"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[11]/label", "xpath:idRelative"],
+        ["xpath=//div[11]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Retype Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01a1b35a-d9ba-45ad-9e72-3b72990e7063",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmPassword",
+      "targets": [
+        ["id=confirmPassword", "id"],
+        ["name=confirmPassword", "name"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0273404-88aa-4e72-9177-636956a88367",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmPassword",
+      "targets": [
+        ["id=confirmPassword", "id"],
+        ["name=confirmPassword", "name"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": "AED"
+    }, {
+      "id": "1fa1e599-c854-4470-a070-89ff4814a611",
+      "comment": "",
+      "command": "click",
+      "target": "name=_eventId_next",
+      "targets": [
+        ["name=_eventId_next", "name"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//input[@name='_eventId_next']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[3]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35014ef2-2043-4787-b496-54de8e3182cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=address.postcode",
+      "targets": [
+        ["id=address.postcode", "id"],
+        ["name=address.postcode", "name"],
+        ["css=#address\\.postcode", "css:finder"],
+        ["xpath=//input[@id='address.postcode']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac9330b1-f9d3-4de5-8d02-a918be9044c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.postcode",
+      "targets": [
+        ["id=address.postcode", "id"],
+        ["name=address.postcode", "name"],
+        ["css=#address\\.postcode", "css:finder"],
+        ["xpath=//input[@id='address.postcode']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[2]/div/div/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "UB13DY"
+    }, {
+      "id": "8b56b0bb-e19e-46dc-bf6c-e8add23ea06a",
+      "comment": "",
+      "command": "click",
+      "target": "name=_eventId_next",
+      "targets": [
+        ["name=_eventId_next", "name"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//input[@name='_eventId_next']", "xpath:attributes"],
+        ["xpath=//form[@id='profiledetails']/div[3]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba9eca7f-6d5f-49ea-943c-14aa300f6786",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-logo",
+      "targets": [
+        ["css=.icon-logo", "css:finder"],
+        ["xpath=//header[@id='top']/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c461c8e7-1a4e-49fd-86af-f63985bc7f3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-activity__item:nth-child(4) > .my-activity__text",
+      "targets": [
+        ["css=.my-activity__item:nth-child(4) > .my-activity__text", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/div/div/div/nav/a[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Council Tax')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "768a20cf-b1ae-450a-b962-c04559712109",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "652b901d-983f-44b4-963b-aaa35c110646",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a8c8f692-1820-4b3e-9891-0d947b5c72cd"]
+  }],
+  "urls": ["https://www.harrow.gov.uk/"],
+  "plugins": []
+}
